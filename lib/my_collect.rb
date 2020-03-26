@@ -1,3 +1,4 @@
+array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 def my_collect(array)
   i = 0 
   new_array = []
@@ -10,7 +11,7 @@ def my_collect(array)
   new_array
 end 
 
-array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
+
 my_collect(array) do |name|
   name.split(" ").first
 end
